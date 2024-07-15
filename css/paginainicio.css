@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(/fondos/fondo1.jpg);
+}
+
+header {
+    background-color: #007bff; /* Fondo del encabezado */
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+}
+
+.logo img {
+    width: 50px; /* Tamaño del logo */
+    height: auto;
+     /* Espacio entre el logo y el texto */
+}
+
+.bienvenido h1 {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+}
+
+/*Barra de navegacion*/
+.navegacion{
+    
+    background: #007bff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+   
+}
+button{
+    background: none  ;
+    border: 0;
+    background-color: ;
+    font-size: 16px;
+    max-width: 120px;
+    color: white;
+    padding: 5px;
+    
+}
+button:hover{
+    
+    transform: scale(1.1);
+    background-color: #007bff;
+    border-radius: 16px;
+    box-shadow: 0 0 20px 10px rgba(24, 33, 39, 0.5)
+}
+/*Seccion de imagenes*/
+section{
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    width: 800px;
+    height: 550px;
+  
+
+}
+section img {
+    border-radius: 16px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor:crosshair;
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*Apartado de derechos reservados*/
+.rights{
+    background-color: #007bff;
+
+}
+.rights-son{
+    text-align: center;
+    color: white;
+}
+/*Sitio resposive dependiendo de los dispositivos que se usen*/
+@media (max-width:1200px){
+    .logo{
+        background: #007bff;
+    }
+}
+@media (max-width:600px){
+    .logo{
+        background: #007bff;
+    }
+}
+
+@media (max-width:350px){
+    .logo{
+        background: #007bff;
+    }
+}
+
+@media (max-width:120px){
+    .logo{
+        justify-content: right;
+        background: #007bff;
+    }
+}
+@media (max-width:340px){
+    section{
+        font-size: 12px;
+        margin: 2px;
+        padding: 12px;
+    }
+    .navegacion{
+        background-color: #007bff;
+        max-width: 100%;
+            font-size: 12px;
+    }
+}
+/*Media querye para la seccion de imagenes*/
+@media (max-idth:340px){
+    section{
+        font-size: 10px;
+        max-width: 10%;
+    }
+}

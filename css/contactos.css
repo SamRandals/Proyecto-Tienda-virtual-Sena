@@ -1,0 +1,70 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    backdrop-filter: blur(5px);
+    /* Adjust path to your background image */
+    background-image: url(/fondos/fondo1.jpg);
+    background-size: cover;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.Caja {
+    text-align: right; /* or text-align: start; */
+    /* Update background color */
+    opacity:;
+    background: #007bff; /* white background */
+    color: white;
+    backdrop-filter: blur(2x);
+    border: none;
+    border-radius: 20px;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.Caja textarea {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    height: 100px;
+    resize: none;
+}
+.contacto {
+    background:#007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-align: left;
+    /* Add some padding or margin for better spacing */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+#arriba input{
+    background-color: rgb(60, 153, 207);
+    color: white;
+    font-size: 25px;
+    border: 0;
+    border: none;
+    border-radius: 16px;
+    position: fixed;
+    top: 50px;
+    left:230px;
+}
+#enviar {
+    background-color:  rgb(60, 153, 207);
+    border: 0px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+/*Area de formularios Sin bordes*/
+#email{
+    border: none;
+}
+#name{
+    border: none;
+}

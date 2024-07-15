@@ -1,0 +1,42 @@
+p{
+    color: rgb(90, 87, 87);
+}
+h1{
+    margin: 0;
+    color: white;
+}
+body{
+    margin-top: 100px;
+    background-image: url(/fondos/fondo1.jpg);
+    text-align: center;
+}
+.base{
+    height: 200px;
+    width: 300px;
+    border-radius: 16px;
+   background-color: rgb(250, 255, 252);
+   box-shadow:
+   0 0 0 2em #4671ff,
+   0 0 0 4em #12b0ff;
+ margin: 4em;
+ padding: 1em;
+    margin: auto;
+}
+.info{
+  margin: 40px;
+
+}
+.info input{
+    margin: 16px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+a input{
+    margin: 0;
+    height: 30px;
+    width: 140px;
+    background-color: #12b0ff;
+    color: white;
+    border-radius: 16px;
+    border: none;
+}

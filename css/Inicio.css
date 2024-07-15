@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image:url(/fondos/fondo1.jpg);
+    font-family: Arial, sans-serif;
+  
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    border: #160404;
+}
+ a.type=[button] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.form-container {
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    background-color: rgb(250, 255, 252);
+    box-shadow:
+    0 0 0 2em #4671ff,
+    0 0 0 4em #12b0ff;
+    margin: 4em;
+    padding: 1em;
+    margin: auto;
+}
+.form-container label {
+    white-space: white;
+    display: block;
+    margin-bottom: 10px;
+}
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.form-container button {
+    padding: 10px 20px;
+    background-color:  rgb(60, 153, 207);
+    color: #fff;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #dbebfc;
+}
+.fondo1{
+    border-radius: 16px;
+    background-color: rgb(221, 240, 255);
+}
+.fondo2{
+    background-color: rgb(221, 240, 255);
+    border-radius: 16px;
+}
+.title{
+color: white;
+    font-family: sans-serif;
+    width:550px;
+    height: 50px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+#iniciar input{
+background-color:  rgb(60, 153, 207);
+    border: 0px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+/*Logotipo de la empresa*/
+.header{
+    padding: 5px;
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Espacio entre la imagen y el texto */
+    color: white; /*Color de la letra de "bienvenidos"*/
+}
+
+.logo{ 
+    width: 50px;
+    height: auto;
+}

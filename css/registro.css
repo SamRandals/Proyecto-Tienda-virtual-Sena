@@ -1,0 +1,120 @@
+h1{
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/fondos/fondo1.jpg);
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+input {
+    background-color: #ffffff;
+    border
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+body.a {
+    color: #0056b3;
+}
+.container {
+    text-align: center;
+  
+}
+ button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.form-container {
+    height: auto;
+    width: 300px;
+    border-radius: 16px;
+    background-color: rgb(250, 255, 252);
+    box-shadow:
+    0 0 0 2em #4671ff,
+    0 0 0 4em #12b0ff;
+    margin: 4em;
+    padding: 1em;
+    margin: auto;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.form-container button:hover {
+    background-color: #0056b3;
+}
+#email {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#volver input{
+    background-color:  rgb(60, 153, 207);
+    border: 0px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top:25px;
+    right: 120px;
+    cursor: pointer;
+}
+#volver input:hover{
+    background-color: #12b0ff;
+}
+#registrar input{
+    background-color:  rgb(60, 153, 207);
+    border: 0px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+/*Logotipo*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    width: 50px;
+    height: auto;
+}

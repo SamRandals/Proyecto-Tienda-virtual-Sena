@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restablecimiento</title>
+    <link rel="stylesheet" href="/css/restablecer.css">
+
+</head>
+<h1>Restablecimiento</h1>
+
+<body>
+    <div class="base"></div>
+    <form class="info" action="">
+    <label for="uno">Ingrese su nueva contraseña</label>
+    <input type="password" name="uno" id="uno" placeholder="contraseña" required>
+    <br>
+    <label  for="dos">Ingrese nuevamente su contraseña</label>
+    <input type="password" name="dos" id="dos" placeholder="contraseña" required>
+    <button id="enviar" onclick="alertar('Contraseña cambiada exitosamente');">
+        enviar
+      </button>
+      <script type="text/javascript">
+          function alertar(texto) {
+             alert(texto);
+          }
+      </script>
+        <a href="1.Inicio.html"><input type="button" value="Volver"></a>
+        <script>
+            const unoInput = document.getElementById('uno');
+            const dosInput = document.getElementById('dos');
+            const enviarButton = document.getElementById('enviar');
+    
+            // Verificar campos al escribir
+            unoInput.addEventListener('input', verificarCampos);
+           dosInput.addEventListener('input', verificarCampos);
+    
+            function verificarCampos() {
+                const uno = unoInput.value.trim();
+                const dos = dosInput.value.trim();
+    
+                // Habilitar el botón si ambos campos están llenos
+                enviarButton.disabled = !(uno && dos);
+            }
+        </script>
+</body>
+</html>

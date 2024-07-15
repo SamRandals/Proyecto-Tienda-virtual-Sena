@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Inicio.css">
+    <title>Inicio de Sesión</title>
+    <a class="logo" href="/fondos/logo.jpg"></a>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <!--Logotipo de la empresas (Kamertofs)-->
+        <div class="header">
+        <div class="imagenlogo">
+            <img class="logo" src="/fondos/Logo.png" alt="">
+        </div>
+        <div class="bienvenido">
+            <h1>Bienvenido</h1>
+        </div>
+         </div>
+        <br>
+       
+        <div class="form-container">
+
+            <form action="1.registro.html" id="form">
+                
+                <label for="Nombre1">Nombre</label>
+                <input id="name" type="text" name="name" placeholder="Nombre de usuario">
+
+                <br>
+
+                <label for="Contraseña1">Contraseña</label>
+                <input id="password" type="password" name="Contraseña1" placeholder="Contraseña de usuario">
+
+                <br>
+
+                <button class="submit" type="submit">Enviar</button>
+                <p class="warnings" id="warnings"></p>
+
+            </form>
+
+            <p>¿Aún no has iniciado sesión? <a href="1.registro.html"><br>Regístrate aquí</a></p>
+            
+            <p>¿Olvidaste tu contraseña? <a href="2.recuperacion.html"> <br>Recuperar Contraseña</a></p>
+
+        </div>
+    </div>
+    
+    
+    <script src="/jscript/validacioninicio.js"></script>
+    
+
+</body>
+</html>
