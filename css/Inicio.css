@@ -1,99 +1,91 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: url("/fondos/fondo1.jpg");
 
 }
-body {
-    background-image:url(/fondos/fondo1.jpg);
-    font-family: Arial, sans-serif;
-  
-    
-}
 
-.container {
-    text-align: center;
-    margin-top: 50px;
-    border: #160404;
-}
- a.type=[button] {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.form-container {
-    height: 300px;
-    width: 300px;
-    border-radius: 16px;
-    background-color: rgb(250, 255, 252);
-    box-shadow:
-    0 0 0 2em #4671ff,
-    0 0 0 4em #12b0ff;
-    margin: 4em;
-    padding: 1em;
-    margin: auto;
-}
-.form-container label {
-    white-space: white;
-    display: block;
-    margin-bottom: 10px;
-}
-.form-container input[type="text"],
-.form-container input[type="password"],
-.form-container input[type="date"] {
-    width: calc(100% - 22px);
-    padding: 5px;
-    margin-bottom: 10px;
-}
-.form-container button {
-    padding: 10px 20px;
-    background-color:  rgb(60, 153, 207);
-    color: #fff;
-    border-radius: 16px;
-    border: none;
-    cursor: pointer;
-}
-.form-container button:hover {
-    background-color: #dbebfc;
-}
-.fondo1{
-    border-radius: 16px;
-    background-color: rgb(221, 240, 255);
-}
-.fondo2{
-    background-color: rgb(221, 240, 255);
-    border-radius: 16px;
-}
-.title{
-color: white;
-    font-family: sans-serif;
-    width:550px;
-    height: 50px;
-    margin:auto;
-    margin-top: 10px;
-    border-radius: 16px;
-}
-#iniciar input{
-background-color:  rgb(60, 153, 207);
-    border: 0px;
-    border-radius: 16px;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-}
-/*Logotipo de la empresa*/
-.header{
-    padding: 5px;
+/*Logo y saludo*/
+.saludo{
     display: flex;
-    justify-content: center; /* Centrar elementos horizontalmente */
-    align-items: center; /* Espacio entre la imagen y el texto */
-    color: white; /*Color de la letra de "bienvenidos"*/
+}
+.logo{
+    color: white;
+    margin-left: 50px;
+}
+/*Info y estilos de form*/
+.container{
+    background-color: rgb(60, 153, 207);
+    max-width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    box-shadow: 16px 12px 10px rgb(80, 80, 80);
+}
+div{
+    display: block;
+}
+label, input{
+    margin: 10px;
+    display: block;
+}
+label{
+    color: white;
+    text-align: center  ;
+}
+input{
+    padding: 5px;
+    margin: auto;
+    border-radius: 6px;
+}
+input::placeholder{
+    color:rgb(60, 153, 207) ;
+}
+button{
+    text-align: center;
+}
+.buton__container{
+    text-align: center;
+}
+.btn{
+    background: none;
+    border: none;
+    padding: 12px;
+    margin: 20px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    border-radius: 6px;
+}
+.onClick:hover{
+    background-color: white;
+    color: rgb(60, 153, 207);
+    
+
+}
+.link__a{
+    display: block;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 5px;
+}
+.link:hover{
+    color: rgb(175, 218, 255);
 }
 
-.logo{ 
-    width: 50px;
-    height: auto;
+/*footer*/
+
+.footer{
+    background-color: rgb(60, 153, 207);
+    padding: 5px;
+    margin-top: 10%;
+}
+.footer footer{
+    color: white;
+    text-align: center;
 }
