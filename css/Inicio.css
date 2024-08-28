@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: url("/fondos/fondo1.jpg");
+    background-image: url("https://image.cdn2.seaart.ai/2024-08-28/cr7plfte878c73fgus00-1/90876caaed3a39ace5062bbfdebc10f3_high.webp");
+    background-size:cover ;
+    background-size: 100% 100%;
 
 }
 
@@ -15,7 +17,8 @@ body{
 }
 /*Info y estilos de form*/
 .container{
-    background-color: rgb(60, 153, 207);
+    background-image:url("https://image.cdn2.seaart.ai/2024-08-28/cr7piule878c738gtivg/874d2abf0243a7a9cb135ce11cc3cdf6664121f2_high.webp");
+    background-size: cover;
     max-width: 300px;
     padding: 20px;
     margin: auto;
@@ -38,6 +41,8 @@ input{
     padding: 5px;
     margin: auto;
     border-radius: 6px;
+    border: none;
+    opacity: 0.5;
 }
 input::placeholder{
     color:rgb(60, 153, 207) ;
@@ -60,6 +65,7 @@ button{
 }
 .onClick:hover{
     background-color: white;
+    opacity: 0.5;
     color: rgb(60, 153, 207);
     
 
