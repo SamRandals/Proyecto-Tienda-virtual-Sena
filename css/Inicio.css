@@ -87,7 +87,7 @@ button{
 /*footer*/
 
 .footer{
-    background-color: rgb(60, 153, 207);
+    background-color: transparent;
     padding: 5px;
     margin-top: 10%;
 }
