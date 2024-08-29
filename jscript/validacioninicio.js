@@ -4,6 +4,11 @@ const form = document.getElementById("form");
 const parrafo = document.getElementById("warnings");
 const boton = document.getElementById("submit");
 
+boton.addEventListener('click', function() {
+  window.location.href = "2.1Paginainicio.html";
+});
+
+
 form.addEventListener("submit", e => {
     e.preventDefault();
     let warnings = "";
