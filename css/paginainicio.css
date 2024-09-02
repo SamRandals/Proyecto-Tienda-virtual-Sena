@@ -4,128 +4,115 @@
 
 }
 body{
-    background-image: url(/fondos/1fd67063-0368-4bd4-80eb-5e45d45d51f3.jpg);
-}
+    background-image: url(/fondos/Fondo\ mar.webp);
+    background-size: 100% 100vh;
 
-header {
-    background-color: #007bff; /* Fondo del encabezado */
+}
+/*  BARRA DE NAVEGACI*/
+.nav{
+    background-color: rgba(70, 158, 154, 0.384);
+    width: 100%;
+    height: 50px;
+    
+}
+.nav__list{
+    text-align: center;
+}
+.nav__boton{
+    
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px;
+    text-align: center;
+    background: none;
     color: white;
-    padding: 5px;
-    display: flex;
-    justify-content: center; /* Centrar elementos horizontalmente */
-    align-items: center; /* Centrar elementos verticalmente */
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 6px;
+}
+.nav__boton:hover{
+    box-sizing: border-box;
+    background: white;
+    opacity: 0.5;
+    font-weight: 900;
+    color:rgb(60, 153, 207);
+}
+.boton__ayuda{
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+/*HEADER DE SALUDO*/
+.header{
+    background-color:rgba(70, 158, 154, 0.384) ;
+    width: 100%;
+    text-align: center;
+    transition: background-color 1s ease;
+}
+.header:hover{
+    background-color:rgba(43, 94, 91, 0.384) ;
 }
 
-.logo img {
-    width: 50px; /* Tamaño del logo */
-    height: auto;
-     /* Espacio entre el logo y el texto */
+.logo{
+    width: 30px;
+    height: 30px;
 }
-
-.bienvenido h1 {
-    margin: 0; /* Elimina el margen predeterminado del encabezado */
-}
-
-/*Barra de navegacion*/
-.navegacion{
-    
-    background: #007bff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-   
-}
-button{
-    background: none  ;
-    border: 0;
-    background-color: ;
-    font-size: 16px;
-    max-width: 120px;
+.saludo{
+    display: inline-block;
     color: white;
-    padding: 5px;
-    
+    text-align: center;
 }
-button:hover{
-    
-    transform: scale(1.1);
-    background-color: #007bff;
-    border-radius: 16px;
-    box-shadow: 0 0 20px 10px rgba(24, 33, 39, 0.5)
+
+/*Carta de presentación*/
+.container{
+    text-align: center;
+    margin-left: ;
 }
-/*Seccion de imagenes*/
-section{
+.card{
+    background:url("/fondos/Nubes_oscuras.webp");
+    background-size: 100% 100%;
+    width: 300px;
+    padding: 15px;
     margin: auto;
-    margin-bottom: 20px;
-    display: flex;
-    width: 800px;
-    height: 550px;
-  
+    margin-top:30px  ;
+    margin-left: 50px;
+    border-radius: 6px;
+    transition: background 2s ease;
+    color: white;
+    display: inline-block;
+    
 
 }
-section img {
-    border-radius: 16px;
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
+.card:hover{
+    background: url("/fondos/Nubes.png");
+    background-size: 100% 100%;
+    color: rgba(15, 37, 36, 0.384);
+    font-weight: 700;
 }
-section img:hover{
-    cursor:crosshair;
-    width: 500px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
-/*Apartado de derechos reservados*/
-.rights{
-    background-color: #007bff;
-
-}
-.rights-son{
+.card__header{
+    box-sizing: border-box;
+    background-color :rgba(42, 77, 75, 0.384);
+    width: 100%;
+    padding: 5px;
     text-align: center;
     color: white;
+    text-transform: uppercase ;
+    border-radius: 6px;
 }
-/*Sitio resposive dependiendo de los dispositivos que se usen*/
-@media (max-width:1200px){
-    .logo{
-        background: #007bff;
-    }
-}
-@media (max-width:600px){
-    .logo{
-        background: #007bff;
-    }
+p{
+    margin-top: 20px;
 }
 
-@media (max-width:350px){
-    .logo{
-        background: #007bff;
-    }
+/*FOOTER*/
+/*FOOTER*/
+.footer{
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 200px;
 }
-
-@media (max-width:120px){
-    .logo{
-        justify-content: right;
-        background: #007bff;
-    }
-}
-@media (max-width:340px){
-    section{
-        font-size: 12px;
-        margin: 2px;
-        padding: 12px;
-    }
-    .navegacion{
-        background-color: #007bff;
-        max-width: 100%;
-            font-size: 12px;
-    }
-}
-/*Media querye para la seccion de imagenes*/
-@media (max-idth:340px){
-    section{
-        font-size: 10px;
-        max-width: 10%;
-    }
+.footer footer{
+    color: white;
+    text-align: center;
+    box-shadow: -10px -10px 10px rgb(0, 0, 0, 0.5);
 }
