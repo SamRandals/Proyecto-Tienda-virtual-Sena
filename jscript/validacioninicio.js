@@ -5,7 +5,7 @@ const parrafo = document.getElementById("warnings");
 const boton = document.getElementById("submit");
 
 boton.addEventListener('click', function() {
-  window.location.href = "2.1Paginainicio.html";
+  window.location.href = "/html/2.1Paginainicio.html";
 });
 
 
