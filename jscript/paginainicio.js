@@ -1,6 +1,6 @@
 
 
-var cerrar = document.getElementById("close");
+var cerrar = document.getElementById("boton__close");
 var productos = document.getElementById("products")
 var sobre_nosotros = document.getElementById("about-us")
 var contactos = document.getElementById("contacts")
@@ -10,7 +10,7 @@ var ayudas = document.getElementById("products")
 
 
 cerrar.addEventListener("click", function (){
-    window.location.href="1.inicio.html"
+    window.location.href="/html/1.inicio.html"
 })
 
 productos.addEventListener("click", function (){
