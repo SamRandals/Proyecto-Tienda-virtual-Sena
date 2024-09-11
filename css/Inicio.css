@@ -43,6 +43,8 @@ input{
     border-radius: 6px;
     border: none;
     opacity: 0.5;
+    color: blue;
+    font-weight: 700;
 }
 input::placeholder{
     color:rgb(60, 153, 207) ;
@@ -65,7 +67,6 @@ button{
 }
 .onClick:hover{
     background-color: white;
-    opacity: 0.5;
     color: rgb(60, 153, 207);
     
 
@@ -89,7 +90,7 @@ button{
 .footer{
     background-color: transparent;
     padding: 5px;
-    margin-top: 10%;
+    margin-top: 30% ;
 }
 .footer footer{
     color: white;

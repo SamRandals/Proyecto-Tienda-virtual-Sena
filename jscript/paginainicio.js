@@ -1,6 +1,6 @@
 
 
-var cerrar = document.getElementById("boton__close");
+var cerrar = document.getElementById("close__boton");
 var productos = document.getElementById("products")
 var sobre_nosotros = document.getElementById("about-us")
 var contactos = document.getElementById("contacts")

@@ -1,70 +1,128 @@
-* {
-    font-family: sans-serif;
-}
-body {
-    backdrop-filter: blur(5px);
-    /* Adjust path to your background image */
-    background-image: url(/fondos/fondo1.jpg);
-    background-size: cover;
-}
-h1, h2, h3 {
-    text-align: center;
-}
-.Caja {
-    text-align: right; /* or text-align: start; */
-    /* Update background color */
-    opacity:;
-    background: #007bff; /* white background */
+body{
+   
+  background: url("/fondos/Fondo_mar.webp");
+  background-size: cover;
+  background-size:100% 100%;
+   
+    }
+    
+
+    /* Tarjeta padre */
+    .tarjeta__padre{
+        background:url("/fondos/Faro_fondo.webp") ;
+        height: 500px;
+        width: 500px;
+        opacity: 0.8;
+        margin: auto;
+        padding: 5px;
+        border-radius: 5px;
+    }
+ .volver{
+    background: none;
+    border: none;
+    padding: 12px;
+    margin: auto;
+    margin-top:30px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
     color: white;
-    backdrop-filter: blur(2x);
-    border: none;
-    border-radius: 20px;
-    background-size: cover;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-}
-.Caja textarea {
-    width: 100%;
-    border: none;
-    border-radius: 12px;
-    height: 100px;
-    resize: none;
-}
-.contacto {
-    background:#007bff;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    text-align: left;
-    /* Add some padding or margin for better spacing */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-}
-#arriba input{
-    background-color: rgb(60, 153, 207);
-    color: white;
-    font-size: 25px;
-    border: 0;
-    border: none;
-    border-radius: 16px;
-    position: fixed;
-    top: 50px;
-    left:230px;
-}
-#enviar {
-    background-color:  rgb(60, 153, 207);
-    border: 0px;
-    border-radius: 16px;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    
+ }
+ .volver:hover{
+    background-color: white;
+    color: rgb(60, 153, 207);
 }
 
-/*Area de formularios Sin bordes*/
-#email{
+    /* tarjeta hijos */
+
+    .tarjeta__hijo{
+        background: url("/fondos/Nubes.png");
+        background-size: cover;
+        background-size: 100% 100%;
+        height: auto;
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 5px;
+        border-radius: 10px;
+        transition: background 1s;
+        color: blue;
+
+    }
+    .tarjeta__hijo:hover{
+        background: url("/fondos/Nubes_oscuras.webp");
+        background-size: cover;
+        color: white;
+    }
+
+  div{
+    display: block;
+  }
+  label, input{
+    margin: 10px;
+    display: block;
+    
+  }
+  label{
+    text-align: center;
+   
+    font-weight: 700;
+  }
+  
+  input{
+    margin: auto;
+    padding: 5px;
+    margin: auto;
+    border-radius: 6px;
     border: none;
+    opacity: 0.5;
+    color: blue;
+    font-weight: 700;
+  }
+  .textarea{
+    text-align: center;
+  }
+  textarea{
+    height: 100px;
+    width: 200px;
+    border-radius: 6px;
+    color: blue;
+    font-weight: 700;
+    max-width: 200px;
+    max-height: 80px;
+    
+  }
+.buton{
+    text-align: center;
+  
 }
-#name{
+/* boton de enviar */
+.button{
+    background: none;
     border: none;
+    padding: 12px;
+    margin: 20px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    border-radius: 6px;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(60, 153, 207);
+    
+
+}
+
+/* footer */
+.footer{
+  background-color: transparent;
+  padding: 5px;
+  margin-top: 10%;
+}
+.footer footer{
+  color: white;
+  text-align: center;
+  box-shadow: -10px -10px 10px rgb(0, 0, 0, 0.5);
 }

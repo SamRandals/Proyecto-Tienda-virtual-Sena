@@ -4,11 +4,11 @@
 
 }
 body{
-    background-image: url(/fondos/Fondo\ mar.webp);
-    background-size: 100% 100vh;
+    background-image: url("/fondos/Fondo_mar.webp");
+    background-size: 100% 100%;
 
 }
-/*  BARRA DE NAVEGACI*/
+/*  BARRA DE NAVEGACION*/
 .nav{
     background-color: rgba(70, 158, 154, 0.384);
     width: 100%;
@@ -35,7 +35,6 @@ body{
 .nav__boton:hover{
     box-sizing: border-box;
     background: white;
-    opacity: 0.5;
     font-weight: 900;
     color:rgb(60, 153, 207);
 }
@@ -67,7 +66,7 @@ body{
 /*Carta de presentación*/
 .container{
     text-align: center;
-    margin-left: ;
+    
 }
 .card{
     background:url("/fondos/Nubes_oscuras.webp");
@@ -87,7 +86,7 @@ body{
 .card:hover{
     background: url("/fondos/Nubes.png");
     background-size: 100% 100%;
-    color: rgba(15, 37, 36, 0.384);
+    color: rgb(70, 111, 247);
     font-weight: 700;
 }
 .card__header{
@@ -109,7 +108,7 @@ p{
 .footer{
     background-color: transparent;
     padding: 5px;
-    margin-top: 200px;
+    margin-top: 20%;
 }
 .footer footer{
     color: white;

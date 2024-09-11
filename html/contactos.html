@@ -4,35 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/contactos.css">
-    <title>Contact Page</title>
-    <style>
-      
-    </style>
+    <title>Contactos</title>
 </head>
 <body>
-    <h1>Zona de Contactos</h1>
-    <div class="Caja">
-        <h2>Deje una pregunta o inquietud para ser atendida</h2>
-        <form>
-            <label for="email">Correo Electrónico</label>
-            <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
-            <br>
-            <label for="name">Nombres</label>
-            <input type="text" id="name" name="name" placeholder="Nombre" required>
-            <h3>Comentarios</h3>
-            <textarea id="comment" name="comment" placeholder="Ingrese su comentario"></textarea>
-            <br>
-            <button id="enviar" type="submit">Enviar</button>
-        </form>
+
+    <div class="tarjeta__padre">
+
+        <div class="buton__volver">
+        <buton class="volver" id="volver1">Volver</buton>
+        </div>
+
+
+        <!-- info usuario y contacto -->
+
+        <div class="tarjeta__hijo">
+            <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="" id="name" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+            <label for="">Correo</label>
+            <input type="email" name="" id="" placeholder="Ingresa tu correo">
+
+        </div>
+
+        </div>
+
+        <!-- comentarios, quejas o reclamos usuario -->
+
+        <div class="tarjeta__hijo">
+           
+            <div>
+            <label for="comentarios">Comentario</label>
+            <div class="textarea">
+            <textarea name="" id=""></textarea>
+        </div>
+        </div>
+            <div class="buton"><Button class="button" id="enviar">Enviar</Button></div>
+        </div>
     </div>
-    <div class="contacto">
-        <h2>Contactos</h2>
-        <h3>Correos</h3>
-        <p>karmertofsempresa@gmail.com</p>
-        <p>Kamertofspreguntas@gmail.com</p>
-        <h3>Números de Contacto</h3>
-        <p>+57 0000000000</p>
-    </div style="height:200; width.200px">
-    <a id="arriba"href="2.1Paginainicio.html"><input type="button" value=" Volver?" > </a>
+
+    <!-- foooter -->
+    <div class="footer">
+        <footer>Todos los derechos reservados</footer>
+    </div>
+
+    <script src="/jscript/contactos.js"></script>
 </body>
 </html>

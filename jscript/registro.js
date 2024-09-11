@@ -1,6 +1,13 @@
 
 const volver = document.getElementById("volver")
+const yatienesunacuenta = document.getElementById("yatienesunacuenta")
+volver.addEventListener("click", function(){
 
-function volver(){
-    window.location.href="/html/index.html"
-}
+    window.location.href="/html/1.inicio.html"
+})
+
+yatienesunacuenta.addEventListener("click", function(){
+
+    window.location.href="/html/1.inicio.html"
+
+})
