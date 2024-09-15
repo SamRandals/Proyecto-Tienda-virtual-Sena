@@ -9,7 +9,8 @@
 
 /*Imagen de fondo para el sitio web*/
 body{
-    background-image: url(/fondos/fondo1.jpg);
+    background-image: url(/fondos/Faro_fondo.webp);
+    background-size: 100% 100%;
     margin: 0 auto;
     max-width: 1200px;
     font-family: 'Lato';
@@ -32,13 +33,18 @@ img{
     max-height: 300px;
 }
 
-/* Header de icono, No */
+/* Barra de navegacion, logo icono y de mas */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -54,11 +60,11 @@ img{
     font-size: 16px;
 }
 #btn1:hover{
-    background: #0b4c92;
+    background: #ffffff;
     border-radius: 16px;
     width:65px;
     height: 50px;
-    color: white;
+    color: #1666bb;
     cursor: pointer;
 }
 .btn {
@@ -151,7 +157,7 @@ img{
 }
 
 .item:hover{
-    box-shadow: 0 10px 20px rgb(60, 153, 207);
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
 }
 
 .item img{
@@ -186,15 +192,18 @@ img{
 .info-product button{
     border: none;
     background: none;
-    background-color: #007bff;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
     border-radius: 16px;
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
 }
 .info-product button:hover{
-
-    background-color: #1666bb;
+    background: white;
+    color: #1666bb;
+    font-weight: 700;
 }
 .fondo{
     background-size: 200px;
@@ -205,14 +214,16 @@ a input{
   justify-content:end;
 }
 /*Apartado de derechos reservados*/
-.rights{
-    background-color: #007bff;
+.footer{
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 30% ;
 }
-.rights-son{
-    text-align: center;
+.footer footer{
     color: white;
+    text-align: center;
+    box-shadow: -10px -10px 10px rgb(0, 0, 0, 0.5);
 }
-
 /*Mediaqueryes Productos*/
 
 @media (max-width: 500px){
