@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("https://image.cdn2.seaart.ai/2024-08-28/cr7plfte878c73fgus00-1/90876caaed3a39ace5062bbfdebc10f3_high.webp");
+    background-image: url("/fondos/Fondo_mar.webp");
     background-size:cover ;
     background-size: 100% 100%;
 
@@ -17,7 +17,7 @@ body{
 }
 /*Info y estilos de form*/
 .container{
-    background-image:url("https://image.cdn2.seaart.ai/2024-08-28/cr7piule878c738gtivg/874d2abf0243a7a9cb135ce11cc3cdf6664121f2_high.webp");
+    background-image:url("/fondos/Faro_fondo.webp");
     background-size: cover;
     max-width: 300px;
     padding: 20px;

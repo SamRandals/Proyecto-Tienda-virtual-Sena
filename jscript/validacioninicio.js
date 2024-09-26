@@ -25,6 +25,6 @@ form.addEventListener("submit", e => {
         parrafo.innerHTML = warnings;
     } else {
         parrafo.innerHTML = "Enviado <br>";
-        window.location.href = "2.1Paginainicio.html"; 
+        window.location.href = "2.1Paginainicio.php"; 
     }
 });

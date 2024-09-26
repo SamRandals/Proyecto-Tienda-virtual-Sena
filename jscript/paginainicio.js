@@ -10,11 +10,11 @@ var ayudas = document.getElementById("products")
 
 
 cerrar.addEventListener("click", function (){
-    window.location.href="/html/1.inicio.html"
+    window.location.href="/html/1.inicio.php"
 })
 
 productos.addEventListener("click", function (){
-    window.location.href="Productos.html"
+    window.location.href="Productos.php"
 })
 
 sobre_nosotros.addEventListener("click", function (){

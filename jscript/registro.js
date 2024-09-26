@@ -8,6 +8,6 @@ volver.addEventListener("click", function(){
 
 yatienesunacuenta.addEventListener("click", function(){
 
-    window.location.href="/html/1.inicio.html"
+    window.location.href="/html/1.inicio.php"
 
 })
